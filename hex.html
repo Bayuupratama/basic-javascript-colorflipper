@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Color Flipper || Hex Generator</title>
+
+        <!-- styles -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="nav-center">
+                <h4>Color Flipper</h4>
+                <div class="nav-links">
+                    <a href="index.html">Simple</a>
+                    <a href="hex.html">Hex</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="card" id="solidCard">
+                <h2>Solid Color</h2>
+                <div class="color-display" id="solidColorDisplay">#FFFFFF</div>
+                <button id="solidFlipButton">Flip Color</button>
+                <button id="copySolidButton">Copy to Clipboard</button>
+            </div>
+
+            <div class="card" id="gradientCard">
+                <h2>Gradient Color</h2>
+                <div class="color-display" id="gradientColorDisplay">
+                    #FFFFFF → #FFFFFF
+                </div>
+                <button id="gradientFlipButton">Generate Gradient</button>
+                <button id="copyGradientButton">Copy to Clipboard</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ by Bayu</p>
+        </footer>
+
+        <script src="hex.js"></script>
+    </body>
+</html>
